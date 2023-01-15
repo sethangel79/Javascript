@@ -12,5 +12,5 @@ auteurs.forEach(element => console.log(element.item(0).querySelector('a span spa
 
 
 for (let i = 0; i <livres.length; i++) {
-    console.log(livres.item(i).outerText + "-" + auteurs.item(i).querySelector('a span span').outerText)
+    console.log(livres.item(i).outerText + " - " + auteurs.item(i).querySelector('a span span').outerText)
 }
